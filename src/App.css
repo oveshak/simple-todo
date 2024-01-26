@@ -2,6 +2,43 @@
   text-align: center;
 }
 
+h1{
+  font-weight: 700;
+  font-size: 45px;
+  margin: 10px;
+  margin-bottom: 20px;
+}
+input{
+  width: 100%;
+
+}
+.kg-button{
+  min-width: 80px;
+}
+.kg-row{
+  margin: 10px 5px;
+}
+.colam{
+  display: flex;
+}
+.list-container{
+  text-align: left;
+}
+.calculatorssssss{
+  margin: 10px 20px;
+}
+.mai{
+ margin: auto !important;
+}
+
+
+
+
+
+
+
+
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;

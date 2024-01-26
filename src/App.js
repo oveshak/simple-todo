@@ -21,11 +21,17 @@ function App() {
     },
   ]
   const [todoList,settodolist]=useState(todoItemList);
+  const onclinkhandelchange=(itemName, itemDate)=>{
+    const newTodo= {name:itemName, date:itemDate}
+     const addtodoItem=[...todoList,newTodo];
+    
+     settodolist(addtodoItem);
+   }
   return (
     <div className='App'>
      <div>
      <Todoappname/>
-     <TodoInput/>
+     <TodoInput nclinkhandelchanges={onclinkhandelchange}/>
      <TodoItem todoList={todoList}/>
      </div>
     </div>
